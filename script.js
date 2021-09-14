@@ -20,6 +20,12 @@ elForm.addEventListener("submit", function(e){
             elInput.style.border = "2px solid red";
             no.style.color = "red"; 
             yes.style.color = "black";
+        }else if(elInputValue >= 5 && elInputValue <=30){
+            yes.style.color = "green";
+            elInput.style.border = "2px solid green";
+            no.style.color = "black";
+        }else{
+            no.style.color = "red";
         }
     }else{
         elInput.style.border = "2px solid red";
