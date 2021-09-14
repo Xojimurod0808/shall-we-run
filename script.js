@@ -1,4 +1,3 @@
-const elTitle = document.querySelector("#subtitle")
 const elForm = document.querySelector("#form")
 const elInput = document.querySelector("#input")
 const elCheckbox1 = document.querySelector("#chec1")
